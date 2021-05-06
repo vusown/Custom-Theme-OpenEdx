@@ -22,3 +22,385 @@
     }
   }
 }
+// custom css sonvt
+.global-header .header-logo a {
+  margin: 15px 0 0 15px;
+
+  .logo {
+    height: 50px;
+  }
+} 
+@media (max-width: 991.98px) {
+  .global-header .header-logo a .logo {
+      height: 40px !important;
+      width: auto;
+      margin-bottom: 8px;
+  }
+}
+.global-header .nav-links .secondary a.sign-in-btn {
+  background-color: $color-defaule; 
+  border-color: $color-defaule;
+
+  &:hover {
+    color: $color-defaule;
+    border-color: $color-defaule;
+  }
+}
+
+.global-header .nav-links .secondary a.register-btn {
+  color: #666666;
+  border-color: #666666;
+
+  &:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+    background-color: $color-defaule;
+  }
+}
+.global-header {
+  border-bottom: 1px solid $color-defaule;
+}
+
+footer#footer-edx-v3 .container.background-footer-custom .info-page-custom {
+
+  width: 100%;
+  max-width: calc(100% - 50px);
+  margin: 0 auto;
+  padding-top: 20px;
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0 0;
+    li {
+      margin-right: 15px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #FFFFFF;
+      a{
+        color: #FFFFFF;
+        &:hover {
+          opacity: 0.9;
+        }
+      }
+    }
+  }
+}
+footer#footer-edx-v3 .container.background-footer-custom {
+  background-color: #666666;
+  max-width: none;
+  overflow: hidden;
+}
+
+footer#footer-edx-v3 .edx-footer-logo {
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.custom-footer-social .custom-footer-social-sub {
+  margin-top: 25px;
+
+  .copyright {
+    color: #ffffff !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  .social .icon {
+    color: $color-defaule !important;
+  }
+}
+footer#footer-edx-v3 {
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.custom-footer-social-sub {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.courses-container .courses .course {
+  border-bottom: 5px solid $color-defaule;
+  .course-info {
+    .course-date {
+      font-size: 16px;
+      line-height: 22px;
+      font-weight: 600;
+      color: #333333;
+    }
+    .course-organization {
+      font-size: 16px;
+      color: #666666;
+      padding-top: 15px;
+      font-weight: bold;
+    }
+    .course-code {
+      font-size: 16px;
+      color: #666666;
+      font-weight: bold;
+    }
+    .course-title {
+      color: #523CC2;
+      font-size: 24px;
+      line-height: 33px;
+      font-weight: bold;
+    }
+  } 
+  .course-image .cover-image .learn-more {
+    border-color: $color-defaule;
+    background: $color-defaule;
+  }
+} 
+.login-register .action-primary{
+  box-shadow: unset;
+  &:hover {
+    background-color: $color-defaule;
+    opacity: 0.9;
+  }
+}
+.global-header .nav-links .main .nav-tab a.active, .global-header .nav-links .main .nav-tab a:hover {
+  border-bottom-style: solid;
+  border-bottom-color: $color-defaule;
+}
+.global-header .nav-links .main {
+  float: left;
+  margin: 29px 0 0 20px;
+  a {
+    padding-top: 0 !important;
+    color: #666666 !important;
+    font-size: 18px;
+    font-weight: bold !important;
+    line-height: 24px;
+
+    &:hover {
+      opacity: 0.9;
+    }
+  }
+}
+
+.find-courses {
+  background: #FFFFFF;
+  .courses-container {
+    padding-top: 0;
+  }
+}
+
+.global-header .nav-links .secondary .nav-item {
+  a.help-link {
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+  }
+  span.username {
+    font-size: 18px;
+    font-weight: 600;
+    color: #666666;
+  }
+} 
+.content-wrapper {
+  min-height: calc(100vh - 345px);
+}
+.dashboard .main-container .my-courses .wrapper-header-courses .header-courses {
+  font-size: 40px;
+  color: #333333;
+  line-height: 55px;
+  font-weight: 600;
+  margin-bottom: 60px;
+
+}
+.dashboard .main-container .my-courses .course .details .enter-course {
+  font-size: 18px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #523CC2;
+  border-color: #523CC2;
+  &:hover {
+    background-color: #523CC2;
+    border-color: #523CC2;
+    opacity: 0.9;
+  }
+}
+.dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more {
+  padding: 0;
+  height: 35px;
+  margin-top: 5px;
+}
+
+.dashboard .main-container .my-courses .course .details .course-actions .wrapper-action-more .action-more span.fa {
+  font-size: 31px;
+}
+
+
+
+.wrapper-course-details .course-info {
+  .info-date-block.localized-datetime {
+    font-size: 16px !important;
+    color: #333333 !important;
+    font-weight: 600;
+  }
+  .info-university {
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+  .info-course-id {
+    font-size: 16px !important;
+    font-weight: bold;
+  }
+}
+.dashboard .main-container .my-courses .course .details .wrapper-course-details .course-title {
+  a {
+    font-size: 24px;
+    line-height: 33px;
+    color: #523CC2;
+    font-weight: bold;
+  }
+
+}
+.dashboard .main-container .my-courses .course .details .wrapper-course-details {
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.dashboard .main-container .my-courses .course .details {
+  position: relative;
+  &::before {
+    content: '';
+    position: absolute;
+    height: 5px;
+    background-color: #FF9103;
+    bottom: 0;
+    right: 0;
+    width: 74.5%;
+  }
+}
+@media (max-width: 767.98px) {
+  .dashboard .main-container .my-courses .course .details {
+    &::before {
+      width: 100%;
+    }
+  }
+}
+
+// end css sonvt
+
+.home>header {
+  background-color: #523CC2;
+  height: 130px;
+}
+.home>header .outer-wrapper {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  width: 100%;
+  max-width: unset;
+}
+.home>header .title {
+  margin: 0;
+}
+.home>header .title>.heading-group {
+  display: none;
+}
+.home>header .title .course-search {
+  padding: 0;
+}
+.home>header .title:last-child {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  box-shadow: unset;
+  width: calc(100% - 30px);
+  max-width: 733px;
+}
+.home>header .title .course-search {
+  width: calc(100% - 54px);
+  border-color: #ffffff;
+  box-shadow: unset;
+
+}
+.home>header .title .course-search .search-input {
+  border-color: #ffffff;
+  border-radius: 5px 0 0 5px;
+}
+.home>header .title .course-search .search-input:focus {
+  outline: unset;
+}
+.home>header .title .course-search .search-button {
+  right: 0;
+  background-color: #FF9103;
+  border-color: #FF9103;
+  border-radius: 0 5px 5px 0;
+}
+.home>header .title .course-search .search-button:hover {
+  background:#FF9103;
+  opacity: 0.9;
+}
+
+.find-courses .wrapper-search-context .wrapper-search-input {
+  margin-top: 10px;
+  height:58px;
+  border-radius: 5px 0 0 5px;
+}
+.find-courses .wrapper-search-context .wrapper-search-input button {
+  background-color: #FF9103;
+  border-color: #FF9103;
+  border-radius: 0 5px 5px 0;
+}
+
+.find-courses .wrapper-search-context .wrapper-search-input button:hover {
+  opacity: 0.9;
+}
+
+.find-courses .wrapper-search-context .wrapper-search-input .discovery-input {
+  border: 2px solid #ffffff;
+  box-shadow: unset;
+  border-radius: 5px 0 0 5px;
+}
+.find-courses .search-facets .facet-option:hover {
+  background-color: #523CC2
+}
+.find-courses .search-facets h2.header-search-facets {
+  background-color: #E5E5E5;
+  font-size: 20px;
+}
+.find-courses .search-facets.phone-menu {
+  border: 1px solid #e4e4e4;
+}
+.find-courses .courses-container, .university-profile .courses-container {
+  background-color: #F9F9F9;
+  padding-top: 40px;
+}
+.find-courses .wrapper-search-context .search-status-label {
+  font-size: 40px;
+  font-weight:600;
+}
+.dashboard-search-bar .search-field {
+  height: 45px;
+  box-shadow: unset;
+}
+.dashboard-search-bar .search-field:focus {
+  box-shadow: unset;
+  border: unset;
+}
+.dashboard-search-bar .search-field:focus-visible {
+  box-shadow: unset;
+  border: unset;
+  outline: unset;
+}
+
+.search-bar .search-button {
+  height: 45px;
+  width: 45px;
+  background-color: #FF9103;
+}
+.search-bar .search-button:hover {
+  height: 45px;
+  width: 45px;
+  background-color: #FF9103 !important;
+  background: #FF9103 !important;
+  opacity: 0.9;
+}
+.dashboard {
+  background-color:#F9F9F9;
+}

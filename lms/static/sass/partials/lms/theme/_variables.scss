@@ -1,5 +1,6 @@
 // Override theming for edx.org bootstrap
 
-$m-blue-d3: rgb(18, 111, 154) !default;
+$m-blue-d3: #FF9103 ;
+$color-defaule: #FF9103 !default;
 
 @import 'edx-bootstrap/sass/edx/theme';
