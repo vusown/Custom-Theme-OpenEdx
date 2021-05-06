@@ -179,7 +179,9 @@
   border-left: 3px solid #523CC2;
 }
 
-a:not(.btn), a:visited:not(.btn),
+.profile-wrapper .course-info>.chapters>section .sections>div .hd a,
+.profile-wrapper .course-info>.chapters>section .sections>div .hd a:visited,
+.wiki-wrapper section.wiki .article-functions .see-children a,
 .has-breadcrumbs .breadcrumbs .all-topics {
   color: #523CC2;
 }
