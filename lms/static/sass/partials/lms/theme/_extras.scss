@@ -182,16 +182,61 @@
   color: #523CC2;
 }
 
-.new-post-btn {
+.discussion.discussion-board .new-post-btn {
   border: 1px solid #523CC2;
   color: #523CC2;
   padding: 1.1rem 0.625rem;
   border-radius: 5px;
 }
 
-.new-post-btn:hover {
+.discussion.discussion-board .new-post-btn:hover {
   color: #fff;
   background-color: #523CC2;
+}
+
+.xmodule_display.xmodule_VideoBlock .video .wrapper-downloads .wrapper-download-video .video-sources,
+.xmodule_display.xmodule_VideoBlock .video .wrapper-downloads .wrapper-download-transcripts .list-download-transcripts .transcript-option a,
+.discussion.inline-discussion .new-post-btn,
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button .fa-bookmark,
+.inline-discussion-thread-container .fa-remove,
+.modal.staff-modal .staff-debug-sdelete,
+.field-label .field-input:checked+.field-input-label,
+.forum-nav-thread-list-wrapper .btn-link
+{
+  color: #523CC2;
+}
+
+.discussion-module .discussion-show.btn,
+.discussion.inline-discussion .btn {
+  border: 1px solid #523CC2 !important;
+  color: #523CC2 !important;
+  background: white !important;
+}
+
+.discussion-module .discussion-show.btn:hover,
+.discussion.inline-discussion .btn:hover {
+  border: 1px solid #523CC2 !important;
+  background-color: #523CC2 !important;
+  color: white !important;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
+.problem-action-buttons-wrapper .problem-action-button-wrapper .show.problem-action-btn:hover,
+.xmodule_display.xmodule_ProblemBlock div.problem .notification.general {
+  border-color: #523CC2;
+}
+
+.problem-action-buttons-wrapper .problem-action-button-wrapper .show.problem-action-btn {
+  color: #523CC2;
+}
+
+.submit-attempt-container .btn-brand:not(:disabled) {
+  background: #523CC2;
+  border-color: #523CC2;
+}
+
+.xmodule_display.xmodule_ProblemBlock div.problem .choicegroup label:hover {
+  border-color: #523CC2 !important;
 }
 
 .forum-search .search-input {
