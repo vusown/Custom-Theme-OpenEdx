@@ -554,10 +554,6 @@ footer#footer-edx-v3 {
   }
 }
 
-.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_video .icon::before {
-  content: "\f02d";
-}
-
 .wrapper-msg.wrapper-auto-cert .auto-cert-message {
   border-left: 3px solid #523CC2;
 }
@@ -567,18 +563,6 @@ footer#footer-edx-v3 {
 .wiki-wrapper section.wiki .article-functions .see-children a,
 .has-breadcrumbs .breadcrumbs .all-topics {
   color: #523CC2;
-}
-
-.new-post-btn {
-  border: 1px solid #523CC2;
-  color: #523CC2;
-  padding: 1.1rem 0.625rem;
-  border-radius: 5px;
-}
-
-.new-post-btn:hover {
-  color: #fff;
-  background-color: #523CC2;
 }
 
 .forum-search .search-input {
