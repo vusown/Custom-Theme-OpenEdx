@@ -29,7 +29,7 @@
   .logo {
     height: 50px;
   }
-} 
+}
 @media (max-width: 991.98px) {
   .global-header .header-logo a .logo {
       height: 40px !important;
@@ -38,7 +38,7 @@
   }
 }
 .global-header .nav-links .secondary a.sign-in-btn {
-  background-color: $color-defaule; 
+  background-color: $color-defaule;
   border-color: $color-defaule;
 
   &:hover {
@@ -145,12 +145,12 @@ footer#footer-edx-v3 {
       line-height: 33px;
       font-weight: bold;
     }
-  } 
+  }
   .course-image .cover-image .learn-more {
     border-color: $color-defaule;
     background: $color-defaule;
   }
-} 
+}
 .login-register .action-primary{
   box-shadow: unset;
   &:hover {
@@ -196,7 +196,7 @@ footer#footer-edx-v3 {
     font-weight: 600;
     color: #666666;
   }
-} 
+}
 .content-wrapper {
   min-height: calc(100vh - 345px);
 }
@@ -294,6 +294,7 @@ footer#footer-edx-v3 {
   align-items:center;
   width: 100%;
   max-width: unset;
+  animation: unset;
 }
 .home>header .title {
   margin: 0;
@@ -403,4 +404,265 @@ footer#footer-edx-v3 {
 }
 .dashboard {
   background-color:#F9F9F9;
+}
+
+// course detail screen
+.wrapper-preview-menu,
+.view-in-studio,
+.view-in-studio:hover,
+.view-in-studio:visited,
+.action-resume-course:hover
+{
+  background-color: #523CC2;
+}
+
+.action-resume-course {
+  background-color: #523CC2;
+  border-color: #523CC2;
+}
+
+.search-form.input-group .search-button {
+  color: white;
+  background-color: #FF9103;
+  border-color: #FF9103;
+}
+
+#expand-collapse-outline-all-button {
+  border-color: #FF9103;
+}
+
+.course-outline .block-tree .outline-button .fa,
+.course-outline .block-tree .section ol.outline-item .subsection .subsection-title,
+.section.section-tools .course-tool-link,
+.breadcrumbs .nav-item a, .breadcrumbs .nav-item a:visited,
+.bookmark-button, .bookmark-button:hover, .bookmark-button:visited
+{
+  color: #523CC2 !important;
+}
+
+.content-wrapper .course-tabs .nav-item.active .nav-link,
+.content-wrapper .course-tabs .nav-item:hover .nav-link,
+.wrapper-course-material .course-tabs .tab a.active,
+.wrapper-course-material .course-tabs .tab a:active,
+.wrapper-course-material .course-tabs .tab a:hover
+{
+  border-bottom-color: #523CC2 !important;
+  color: #523CC2 !important;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+  border-bottom-color: #523CC2;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.button-previous,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.button-next {
+  color: white;
+  background-color: #FF9103;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.button-previous:hover,
+.xmodule_display.xmodule_SequenceModule .sequence-nav-button.button-next:hover {
+  color: black;
+  background-color: #FF9103;
+  border-bottom-color: #FF9103;
+}
+
+.wrapper-course-material .course-tabs .tab a,
+.wrapper-course-material .course-tabs .tab a:visited {
+  color: #313131;
+  border-bottom: 4px hidden #523CC2;
+}
+
+.section-handouts a
+{
+  color: #523CC2;
+}
+
+.search-button {
+  position: relative;
+  color: transparent !important;
+}
+
+.search-button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #fff;
+  font-size: 30px;
+  position: absolute;
+  padding: 0 12px;
+  top: 10px;
+}
+
+.search-form.input-group .search-input {
+  padding: 1.1rem 7.6rem 1.1rem 0.625rem;
+  border: 1.5px solid gray;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-form.input-group .search-button {
+  padding: 1.1rem 0.15rem;
+  border: 1.5px solid gray;
+  border-radius: 0 5px 5px 0;
+}
+
+.action-resume-course {
+  padding: 1.1rem 0.625rem;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav {
+  height: 54px;
+}
+
+@media (min-width: 768px) {
+  .xmodule_display.xmodule_SequenceModule .sequence-nav-button {
+      min-width: 132px;
+  }
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button {
+  height: 53px;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-bottom .sequence-nav-button {
+  min-width: 132px;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-bottom {
+  height: 54px;
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+  background-color: #523CC2;
+}
+
+@media (min-width: 576px) {
+  .xmodule_display.xmodule_SequenceModule .sequence-nav-button.focused,
+  .xmodule_display.xmodule_SequenceModule .sequence-nav-button:hover,
+  .xmodule_display.xmodule_SequenceModule .sequence-nav-button:active,
+  .xmodule_display.xmodule_SequenceModule .sequence-nav-button.active,
+  .xmodule_display.xmodule_SequenceModule .sequence-nav button.focused,
+  .xmodule_display.xmodule_SequenceModule .sequence-nav button:hover,
+  .xmodule_display.xmodule_SequenceModule .sequence-nav button:active,
+  .xmodule_display.xmodule_SequenceModule .sequence-nav button.active {
+      background-color: #fff;
+  }
+}
+
+.xmodule_display.xmodule_SequenceModule .sequence-nav ol li button.seq_video .icon::before {
+  content: "\f02d";
+}
+
+.wrapper-msg.wrapper-auto-cert .auto-cert-message {
+  border-left: 3px solid #523CC2;
+}
+
+.profile-wrapper .course-info>.chapters>section .sections>div .hd a,
+.profile-wrapper .course-info>.chapters>section .sections>div .hd a:visited,
+.wiki-wrapper section.wiki .article-functions .see-children a,
+.has-breadcrumbs .breadcrumbs .all-topics {
+  color: #523CC2;
+}
+
+.new-post-btn {
+  border: 1px solid #523CC2;
+  color: #523CC2;
+  padding: 1.1rem 0.625rem;
+  border-radius: 5px;
+}
+
+.new-post-btn:hover {
+  color: #fff;
+  background-color: #523CC2;
+}
+
+.forum-search .search-input {
+  padding: 1.1rem 7.6rem 1.1rem 0.625rem;
+  border: 1.5px solid gray;
+  border-radius: 5px 0 0 5px;
+}
+
+.forum-search>label {
+  padding: 1.1rem 7.6rem 1.1rem 0.625rem;
+}
+
+.forum-search .search-button {
+  background: #FF9103;
+  border: 1.5px solid gray;
+  border-radius: 0 5px 5px 0;
+}
+
+.wiki-wrapper section.wiki .breadcrumb li a,
+.wiki-wrapper section.wiki .nav-tabs a {
+  color: #523CC2;
+}
+
+.instructor-dashboard-content-2 .instructor-nav .nav-item .btn-link {
+  color: #523CC2;
+}
+
+.instructor-dashboard-content-2 .instructor-nav .nav-item .btn-link:hover {
+  border-bottom: 3px solid #523CC2;
+}
+
+.instructor-dashboard-content-2 .instructor-nav .nav-item .btn-link.active-section,
+.instructor-dashboard-content-2 .data-download-nav .nav-item .btn-link.active-section {
+  border-bottom: 3px solid #523CC2;
+  color: #000;
+}
+
+// account setting
+.account-settings-sections .section .account-settings-section-body .u-field .field .u-field-link,
+.account-settings-sections .section .account-deletion-details .btn-outline-primary {
+  border: 1px solid #523CC2 !important;
+  color: #523CC2 !important;
+  background: white !important;
+}
+
+.account-settings-sections .section .account-settings-section-body .u-field .field .u-field-link:hover,
+.account-settings-sections .section .account-deletion-details .btn-outline-primary:hover {
+  color: #fff !important;
+  background-color: #523CC2 !important;
+}
+
+.account-settings-sections .section .account-settings-section-body .u-field .field .field-input,
+.account-settings-sections .section .account-settings-section-body .u-field .field select {
+  border: 1px solid #FF9103;
+}
+
+.wrapper-account-settings .wrapper-header .account-nav .account-nav-link:hover {
+  border-bottom: 4px solid #523CC2;
+}
+
+.account-settings-sections .section .account-settings-section-body .u-field .field select ~ .icon-caret-down::after {
+  border-top: 7px solid #523CC2;
+}
+.search-bar.dashboard-search-bar .search-field-wrapper .search-button::before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  color: #fff;
+  font-size: 30px;
+  position: unset;
+  padding: 0; 
+  top: 0;
+}
+.search-bar.dashboard-search-bar .search-field-wrapper .search-button span {
+  position: absolute;
+}
+
+.dashboard .side-container .wrapper-find-courses .course-advertise .marketing-link a {
+  border-color: #FF9103;
+  color: #FF9103;
+
+  &:hover {
+    background-color: #FF9103;
+  }
 }
